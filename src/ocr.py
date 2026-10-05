@@ -61,8 +61,6 @@ def main():
     else:
         processed_ids = set()
 
-    total = len(metadata)
-
     for _, row in metadata.iterrows():
         meme_id = row["meme_id"]
         if meme_id in processed_ids:
