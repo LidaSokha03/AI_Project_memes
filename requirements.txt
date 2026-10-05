@@ -1,0 +1,18 @@
+# Data processing
+pandas
+numpy
+
+# Images
+Pillow
+opencv-python
+
+# OCR
+paddleocr
+paddlepaddle
+
+# Visualization
+matplotlib
+
+# Jupyter notebooks
+jupyter
+ipykernel
