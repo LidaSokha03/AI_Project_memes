@@ -1,0 +1,229 @@
+UMAP: neighbors=10, components=5
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=116, noise=0.409, sil=0.4074806869029999
+  HDBSCAN mcs=10, ms=2 -> clusters=103, noise=0.447, sil=0.42168688774108887
+  HDBSCAN mcs=12, ms=1 -> clusters=91, noise=0.379, sil=0.3920198976993561
+  HDBSCAN mcs=12, ms=2 -> clusters=78, noise=0.418, sil=0.4188956618309021
+  HDBSCAN mcs=15, ms=1 -> clusters=68, noise=0.367, sil=0.4022742807865143
+  HDBSCAN mcs=15, ms=2 -> clusters=61, noise=0.396, sil=0.4072941839694977
+  HDBSCAN mcs=20, ms=1 -> clusters=44, noise=0.380, sil=0.4216255843639374
+  HDBSCAN mcs=20, ms=2 -> clusters=43, noise=0.424, sil=0.43029820919036865
+
+UMAP: neighbors=10, components=8
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=117, noise=0.405, sil=0.3987216651439667
+  HDBSCAN mcs=10, ms=2 -> clusters=104, noise=0.463, sil=0.4234846234321594
+  HDBSCAN mcs=12, ms=1 -> clusters=87, noise=0.389, sil=0.3953961730003357
+  HDBSCAN mcs=12, ms=2 -> clusters=76, noise=0.428, sil=0.4406546354293823
+  HDBSCAN mcs=15, ms=1 -> clusters=63, noise=0.381, sil=0.40381622314453125
+  HDBSCAN mcs=15, ms=2 -> clusters=54, noise=0.414, sil=0.4293498396873474
+  HDBSCAN mcs=20, ms=1 -> clusters=48, noise=0.379, sil=0.4158356785774231
+  HDBSCAN mcs=20, ms=2 -> clusters=45, noise=0.427, sil=0.43480080366134644
+
+UMAP: neighbors=10, components=10
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=111, noise=0.433, sil=0.4262930154800415
+  HDBSCAN mcs=10, ms=2 -> clusters=104, noise=0.462, sil=0.4501003324985504
+  HDBSCAN mcs=12, ms=1 -> clusters=88, noise=0.414, sil=0.4084559679031372
+  HDBSCAN mcs=12, ms=2 -> clusters=80, noise=0.451, sil=0.43792688846588135
+  HDBSCAN mcs=15, ms=1 -> clusters=66, noise=0.421, sil=0.4207521975040436
+  HDBSCAN mcs=15, ms=2 -> clusters=59, noise=0.465, sil=0.4386632442474365
+  HDBSCAN mcs=20, ms=1 -> clusters=43, noise=0.425, sil=0.4338770806789398
+  HDBSCAN mcs=20, ms=2 -> clusters=42, noise=0.463, sil=0.46004411578178406
+
+UMAP: neighbors=10, components=15
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=121, noise=0.396, sil=0.39814746379852295
+  HDBSCAN mcs=10, ms=2 -> clusters=107, noise=0.444, sil=0.44050848484039307
+  HDBSCAN mcs=12, ms=1 -> clusters=93, noise=0.406, sil=0.4003181457519531
+  HDBSCAN mcs=12, ms=2 -> clusters=81, noise=0.450, sil=0.43283435702323914
+  HDBSCAN mcs=15, ms=1 -> clusters=65, noise=0.404, sil=0.4134521484375
+  HDBSCAN mcs=15, ms=2 -> clusters=59, noise=0.419, sil=0.43013471364974976
+  HDBSCAN mcs=20, ms=1 -> clusters=49, noise=0.384, sil=0.3996533155441284
+  HDBSCAN mcs=20, ms=2 -> clusters=46, noise=0.410, sil=0.4461502432823181
+UMAP: neighbors=15, components=5
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=101, noise=0.427, sil=0.378475159406662
+  HDBSCAN mcs=10, ms=2 -> clusters=86, noise=0.494, sil=0.421584814786911
+  HDBSCAN mcs=12, ms=1 -> clusters=82, noise=0.432, sil=0.382662832736969
+  HDBSCAN mcs=12, ms=2 -> clusters=74, noise=0.487, sil=0.43186628818511963
+  HDBSCAN mcs=15, ms=1 -> clusters=62, noise=0.442, sil=0.4195394217967987
+  HDBSCAN mcs=15, ms=2 -> clusters=53, noise=0.506, sil=0.4606453776359558
+  HDBSCAN mcs=20, ms=1 -> clusters=42, noise=0.421, sil=0.42584729194641113
+  HDBSCAN mcs=20, ms=2 -> clusters=39, noise=0.464, sil=0.4414958655834198UMAP: neighbors=15, components=8
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=104, noise=0.453, sil=0.41820135712623596
+  HDBSCAN mcs=10, ms=2 -> clusters=86, noise=0.473, sil=0.3931660056114197
+  HDBSCAN mcs=12, ms=1 -> clusters=80, noise=0.437, sil=0.3829551935195923
+  HDBSCAN mcs=12, ms=2 -> clusters=67, noise=0.481, sil=0.40331128239631653
+  HDBSCAN mcs=15, ms=1 -> clusters=60, noise=0.450, sil=0.39310091733932495
+  HDBSCAN mcs=15, ms=2 -> clusters=56, noise=0.493, sil=0.41859233379364014
+  HDBSCAN mcs=20, ms=1 -> clusters=46, noise=0.412, sil=0.39221012592315674
+  HDBSCAN mcs=20, ms=2 -> clusters=42, noise=0.444, sil=0.41985389590263367
+UMAP: neighbors=15, components=10
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=105, noise=0.409, sil=0.3841709494590759
+  HDBSCAN mcs=10, ms=2 -> clusters=92, noise=0.444, sil=0.39748749136924744
+  HDBSCAN mcs=12, ms=1 -> clusters=78, noise=0.408, sil=0.3697544038295746
+  HDBSCAN mcs=12, ms=2 -> clusters=73, noise=0.451, sil=0.39882200956344604
+  HDBSCAN mcs=15, ms=1 -> clusters=64, noise=0.415, sil=0.3691437840461731
+  HDBSCAN mcs=15, ms=2 -> clusters=60, noise=0.454, sil=0.3943776488304138
+  HDBSCAN mcs=20, ms=1 -> clusters=49, noise=0.419, sil=0.4125615954399109
+  HDBSCAN mcs=20, ms=2 -> clusters=43, noise=0.447, sil=0.4438557028770447
+
+UMAP: neighbors=15, components=15
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=102, noise=0.439, sil=0.37150171399116516
+  HDBSCAN mcs=10, ms=2 -> clusters=82, noise=0.486, sil=0.39966195821762085
+  HDBSCAN mcs=12, ms=1 -> clusters=81, noise=0.410, sil=0.3739206790924072
+  HDBSCAN mcs=12, ms=2 -> clusters=69, noise=0.477, sil=0.4072166681289673
+  HDBSCAN mcs=15, ms=1 -> clusters=59, noise=0.431, sil=0.3969981074333191
+  HDBSCAN mcs=15, ms=2 -> clusters=58, noise=0.462, sil=0.407039076089859
+  HDBSCAN mcs=20, ms=1 -> clusters=46, noise=0.418, sil=0.39214587211608887
+  HDBSCAN mcs=20, ms=2 -> clusters=42, noise=0.454, sil=0.4187213182449341
+
+UMAP: neighbors=20, components=5
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=101, noise=0.471, sil=0.39350494742393494
+  HDBSCAN mcs=10, ms=2 -> clusters=82, noise=0.511, sil=0.4402395784854889
+  HDBSCAN mcs=12, ms=1 -> clusters=73, noise=0.470, sil=0.4119509756565094
+  HDBSCAN mcs=12, ms=2 -> clusters=64, noise=0.494, sil=0.4264681935310364
+  HDBSCAN mcs=15, ms=1 -> clusters=57, noise=0.420, sil=0.39936235547065735
+  HDBSCAN mcs=15, ms=2 -> clusters=51, noise=0.466, sil=0.4219893217086792
+  HDBSCAN mcs=20, ms=1 -> clusters=46, noise=0.408, sil=0.4062063992023468
+  HDBSCAN mcs=20, ms=2 -> clusters=39, noise=0.445, sil=0.441586434841156
+
+UMAP: neighbors=20, components=8
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=90, noise=0.432, sil=0.37680280208587646
+  HDBSCAN mcs=10, ms=2 -> clusters=75, noise=0.481, sil=0.40723612904548645
+  HDBSCAN mcs=12, ms=1 -> clusters=67, noise=0.405, sil=0.38227197527885437
+  HDBSCAN mcs=12, ms=2 -> clusters=62, noise=0.455, sil=0.4068978428840637
+  HDBSCAN mcs=15, ms=1 -> clusters=56, noise=0.394, sil=0.38462793827056885
+  HDBSCAN mcs=15, ms=2 -> clusters=48, noise=0.437, sil=0.4306947588920593
+  HDBSCAN mcs=20, ms=1 -> clusters=44, noise=0.388, sil=0.4120934307575226
+  HDBSCAN mcs=20, ms=2 -> clusters=42, noise=0.441, sil=0.43792206048965454
+
+UMAP: neighbors=20, components=10
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=101, noise=0.477, sil=0.3692619204521179
+  HDBSCAN mcs=10, ms=2 -> clusters=81, noise=0.500, sil=0.40204691886901855
+  HDBSCAN mcs=12, ms=1 -> clusters=72, noise=0.450, sil=0.3715571165084839
+  HDBSCAN mcs=12, ms=2 -> clusters=59, noise=0.477, sil=0.413714736700058
+  HDBSCAN mcs=15, ms=1 -> clusters=51, noise=0.431, sil=0.39732226729393005
+  HDBSCAN mcs=15, ms=2 -> clusters=47, noise=0.474, sil=0.4365333020687103
+  HDBSCAN mcs=20, ms=1 -> clusters=44, noise=0.433, sil=0.4216820001602173
+  HDBSCAN mcs=20, ms=2 -> clusters=42, noise=0.477, sil=0.44836094975471497
+
+UMAP: neighbors=20, components=15
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=99, noise=0.453, sil=0.3828723430633545
+  HDBSCAN mcs=10, ms=2 -> clusters=86, noise=0.504, sil=0.4060122072696686
+  HDBSCAN mcs=12, ms=1 -> clusters=78, noise=0.461, sil=0.3864290118217468
+  HDBSCAN mcs=12, ms=2 -> clusters=71, noise=0.522, sil=0.4142606556415558
+  HDBSCAN mcs=15, ms=1 -> clusters=61, noise=0.431, sil=0.3725432753562927
+  HDBSCAN mcs=15, ms=2 -> clusters=51, noise=0.475, sil=0.40462949872016907
+  HDBSCAN mcs=20, ms=1 -> clusters=44, noise=0.446, sil=0.4027060568332672
+  HDBSCAN mcs=20, ms=2 -> clusters=41, noise=0.469, sil=0.42047396302223206
+
+UMAP: neighbors=20, components=15
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=99, noise=0.453, sil=0.3828723430633545
+  HDBSCAN mcs=10, ms=2 -> clusters=86, noise=0.504, sil=0.4060122072696686
+  HDBSCAN mcs=12, ms=1 -> clusters=78, noise=0.461, sil=0.3864290118217468
+  HDBSCAN mcs=12, ms=2 -> clusters=71, noise=0.522, sil=0.4142606556415558
+  HDBSCAN mcs=15, ms=1 -> clusters=61, noise=0.431, sil=0.3725432753562927
+  HDBSCAN mcs=15, ms=2 -> clusters=51, noise=0.475, sil=0.40462949872016907
+  HDBSCAN mcs=20, ms=1 -> clusters=44, noise=0.446, sil=0.4027060568332672
+  HDBSCAN mcs=20, ms=2 -> clusters=41, noise=0.469, sil=0.42047396302223206
+
+UMAP: neighbors=30, components=5
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=84, noise=0.455, sil=0.3770888149738312
+  HDBSCAN mcs=10, ms=2 -> clusters=67, noise=0.532, sil=0.4200652837753296
+  HDBSCAN mcs=12, ms=1 -> clusters=66, noise=0.468, sil=0.40482771396636963
+  HDBSCAN mcs=12, ms=2 -> clusters=58, noise=0.535, sil=0.4382956027984619
+  HDBSCAN mcs=15, ms=1 -> clusters=55, noise=0.487, sil=0.40878427028656006
+  HDBSCAN mcs=15, ms=2 -> clusters=48, noise=0.532, sil=0.45605912804603577
+  HDBSCAN mcs=20, ms=1 -> clusters=42, noise=0.499, sil=0.44217008352279663
+  HDBSCAN mcs=20, ms=2 -> clusters=37, noise=0.538, sil=0.4839697778224945
+
+UMAP: neighbors=30, components=8
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=96, noise=0.466, sil=0.33584123849868774
+  HDBSCAN mcs=10, ms=2 -> clusters=85, noise=0.518, sil=0.3642146587371826
+  HDBSCAN mcs=12, ms=1 -> clusters=74, noise=0.464, sil=0.3413458466529846
+  HDBSCAN mcs=12, ms=2 -> clusters=64, noise=0.474, sil=0.37745505571365356
+  HDBSCAN mcs=15, ms=1 -> clusters=54, noise=0.432, sil=0.3894502520561218
+  HDBSCAN mcs=15, ms=2 -> clusters=50, noise=0.482, sil=0.42030656337738037
+  HDBSCAN mcs=20, ms=1 -> clusters=41, noise=0.431, sil=0.4252449572086334
+  HDBSCAN mcs=20, ms=2 -> clusters=38, noise=0.459, sil=0.4332515299320221
+
+UMAP: neighbors=30, components=10
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=90, noise=0.447, sil=0.3494641184806824
+  HDBSCAN mcs=10, ms=2 -> clusters=76, noise=0.513, sil=0.3769718110561371
+  HDBSCAN mcs=12, ms=1 -> clusters=74, noise=0.451, sil=0.34217369556427
+  HDBSCAN mcs=12, ms=2 -> clusters=63, noise=0.504, sil=0.3856033682823181
+  HDBSCAN mcs=15, ms=1 -> clusters=59, noise=0.453, sil=0.37726789712905884
+  HDBSCAN mcs=15, ms=2 -> clusters=52, noise=0.510, sil=0.42537879943847656
+  HDBSCAN mcs=20, ms=1 -> clusters=42, noise=0.446, sil=0.41477569937705994
+  HDBSCAN mcs=20, ms=2 -> clusters=36, noise=0.480, sil=0.43612271547317505
+
+UMAP: neighbors=30, components=15
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+  HDBSCAN mcs=10, ms=1 -> clusters=81, noise=0.485, sil=0.32837817072868347
+  HDBSCAN mcs=10, ms=2 -> clusters=73, noise=0.509, sil=0.357557088136673
+  HDBSCAN mcs=12, ms=1 -> clusters=65, noise=0.444, sil=0.3486922085285187
+  HDBSCAN mcs=12, ms=2 -> clusters=55, noise=0.487, sil=0.39959517121315
+  HDBSCAN mcs=15, ms=1 -> clusters=53, noise=0.417, sil=0.3757833242416382
+  HDBSCAN mcs=15, ms=2 -> clusters=45, noise=0.451, sil=0.4255003035068512
+  HDBSCAN mcs=20, ms=1 -> clusters=41, noise=0.407, sil=0.4073760509490967
+  HDBSCAN mcs=20, ms=2 -> clusters=39, noise=0.454, sil=0.4264377951622009
+
+===== BEST CONFIGURATION =====
+{
+  "umap_n_neighbors": 10,
+  "umap_n_components": 5,
+  "min_cluster_size": 20,
+  "min_samples": 1
+}
+Clusters: 44
+Noise ratio: 0.380
+UMAP silhouette: 0.4216
+
+===== FINAL TEXT-ONLY RESULT =====
+Samples: 3799
+Clusters: 44
+Outliers: 1442
+Outlier ratio: 0.380
+Largest cluster ratio: 0.026
+Median cluster size: 53.0
+Silhouette (original E5 / cosine): 0.0258
+Silhouette (UMAP / euclidean): 0.4216
+
+
+Files:
+- parameter_search.csv
+- best_config.json
+- metrics.json
+- clusters.csv
+- cluster_sizes.csv
+- cluster_examples.csv

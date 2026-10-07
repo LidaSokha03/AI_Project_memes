@@ -4,8 +4,8 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path.cwd()
-METADATA_PATH = PROJECT_ROOT / "data" / "interim" / "metadata.csv"
-OUTPUT_PATH = PROJECT_ROOT / "data" / "interim" / "metadata_4000.csv"
+METADATA_PATH = PROJECT_ROOT / "data" / "processed" / "metadata.csv"
+OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "metadata_4000.csv"
 IDS_PATH = (PROJECT_ROOT / "data" / "splits" / "working_subset_4000_ids.csv")
 
 RANDOM_SEED = 42
