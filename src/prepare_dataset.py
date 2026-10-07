@@ -6,9 +6,9 @@ from PIL import Image
 
 PROJECT_ROOT = Path.cwd()
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
-INTERIM_DIR = PROJECT_ROOT / "data" / "interim"
+PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
-OUTPUT_PATH = INTERIM_DIR / "metadata_all.csv"
+OUTPUT_PATH = PROCESSED_DIR / "metadata_all.csv"
 
 
 def sha256_file(path: Path) -> str:

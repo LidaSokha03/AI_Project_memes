@@ -4,8 +4,8 @@ from paddleocr import PaddleOCR
 
 
 PROJECT_ROOT = Path.cwd()
-METADATA_PATH = PROJECT_ROOT / "data" / "interim" / "working_subset_4000.csv"
-OUTPUT_PATH = PROJECT_ROOT / "data" / "interim" / "metadata4k_with_ocr.csv"
+METADATA_PATH = PROJECT_ROOT / "data" / "processed" / "working_subset_4000.csv"
+OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "metadata4k_with_ocr.csv"
 BATCH_SIZE = 50
 
 # PaddleOCR for ukrainian and russian text recognition
@@ -60,8 +60,6 @@ def main():
 
     else:
         processed_ids = set()
-
-    total = len(metadata)
 
     for _, row in metadata.iterrows():
         meme_id = row["meme_id"]
