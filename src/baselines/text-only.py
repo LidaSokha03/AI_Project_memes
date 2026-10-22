@@ -51,7 +51,7 @@ def has_meaningful_text(text):
 
 def load_data():
     df = pd.read_csv(DATA_PATH)
-    df["ocr_text"] = (df["ocr_raw_y"].apply(clean_text))
+    df["ocr_text"] = (df["ocr_raw"].apply(clean_text))
     df["has_text"] = (df["ocr_text"] .apply(has_meaningful_text))
     total = len(df)
     with_text = int(df["has_text"].sum())
