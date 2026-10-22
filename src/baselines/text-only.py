@@ -12,7 +12,7 @@ from sklearn.metrics import silhouette_score
 
 PROJECT_ROOT = Path.cwd()
 
-DATA_PATH = (PROJECT_ROOT / "data" / "processed" / "metadata4k_with_ocr.csv")
+DATA_PATH = PROJECT_ROOT / "data" / "processed" / "03_metadata_ocr.csv"
 OUTPUT_DIR = (PROJECT_ROOT / "outputs" / "text_only")
 
 

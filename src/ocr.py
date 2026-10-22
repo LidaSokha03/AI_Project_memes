@@ -4,8 +4,8 @@ from paddleocr import PaddleOCR
 
 
 PROJECT_ROOT = Path.cwd()
-METADATA_PATH = PROJECT_ROOT / "data" / "processed" / "working_subset_4000.csv"
-OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "metadata4k_with_ocr.csv"
+METADATA_PATH = PROJECT_ROOT / "data" / "processed" / "02_metadata_subset4000.csv"
+OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "03_metadata_ocr.csv"
 BATCH_SIZE = 50
 
 # PaddleOCR for ukrainian and russian text recognition

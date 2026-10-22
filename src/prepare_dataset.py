@@ -8,7 +8,7 @@ PROJECT_ROOT = Path.cwd()
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
-OUTPUT_PATH = PROCESSED_DIR / "metadata_all.csv"
+OUTPUT_PATH = PROCESSED_DIR / "01_metadata_all.csv"
 
 
 def sha256_file(path: Path) -> str:
