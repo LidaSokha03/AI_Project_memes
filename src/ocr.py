@@ -4,8 +4,8 @@ from paddleocr import PaddleOCR
 
 
 PROJECT_ROOT = Path.cwd()
-METADATA_PATH = PROJECT_ROOT / "data" / "processed" / "working_subset_4000.csv"
-OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "metadata4k_with_ocr.csv"
+METADATA_PATH = PROJECT_ROOT / "data" / "processed" / "02_metadata_subset4000.csv"
+OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "03_metadata_ocr.csv"
 BATCH_SIZE = 50
 
 # PaddleOCR for ukrainian and russian text recognition
@@ -18,10 +18,9 @@ ocr = PaddleOCR(
 
 def save_checkpoint(metadata, results):
     result_df = pd.DataFrame(results)
-    updated = metadata.merge(result_df, on="meme_id", how="left")
+    base = metadata.drop(columns=["ocr_raw", "ocr_confidence"], errors="ignore")
+    updated = base.merge(result_df, on="meme_id", how="left")
     updated.to_csv(OUTPUT_PATH, index=False)
-    # print(f"\nCheckpoint saved: {len(result_df)} memes processed\n")
-
 
 def extract_text(image_path):
     try:
@@ -53,7 +52,9 @@ def main():
     results = []
     if OUTPUT_PATH.exists():
         previous = pd.read_csv(OUTPUT_PATH)
-        previous_processed = previous[previous["ocr_raw"].notna()][["meme_id", "ocr_raw", "ocr_confidence"]]
+        previous_processed = previous[previous["ocr_confidence"].notna()][
+            ["meme_id", "ocr_raw", "ocr_confidence"]].copy()
+        previous_processed["ocr_raw"] = previous_processed["ocr_raw"].fillna("")
         results = previous_processed.to_dict("records")
         processed_ids = set(previous_processed["meme_id"])
         print(f"Resuming: {len(processed_ids)} memes already processed.")
