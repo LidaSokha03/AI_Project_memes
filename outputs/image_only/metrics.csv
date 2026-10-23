@@ -1,0 +1,2 @@
+approach,umap_n_neighbors,umap_n_components,umap_min_dist,umap_metric,umap_random_state,hdbscan_min_cluster_size,hdbscan_min_samples,hdbscan_metric,hdbscan_cluster_selection_method,model,n_samples,n_clusters,n_outliers,outlier_ratio,largest_cluster_ratio,median_cluster_size,silhouette_original_cosine,silhouette_umap_euclidean,intra_cluster_similarity,inter_cluster_similarity
+image_only,10,5,0.0,cosine,42,20,1,euclidean,leaf,openai/clip-vit-base-patch32,4000,53,1692,0.423,0.033,38.0,0.013865829445421696,0.48731157183647156,0.8271103919559583,0.827286958694458
