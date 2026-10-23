@@ -57,3 +57,6 @@ temp/
 .ruff_cache/
 .coverage
 htmlcov/
+
+__pycache__/
+*.pyc

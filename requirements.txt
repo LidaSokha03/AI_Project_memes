@@ -1,6 +1,8 @@
 # Data processing
 pandas
 numpy
+scikit-learn
+tqdm
 
 # Images
 Pillow
@@ -9,6 +11,15 @@ opencv-python
 # OCR
 paddleocr
 paddlepaddle
+
+# Embeddings (CLIP, multilingual-e5)
+torch
+transformers
+sentence-transformers
+
+# Dimensionality reduction and clustering
+umap-learn
+hdbscan
 
 # Visualization
 matplotlib
