@@ -27,3 +27,6 @@ matplotlib
 # Jupyter notebooks
 jupyter
 ipykernel
+
+# VLM semantic extraction (calls the local Ollama server)
+requests
