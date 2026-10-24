@@ -1,0 +1,1 @@
+{"meme_id": "meme_003194", "model": "qwen2.5vl:7b", "ok": false, "attempts": 2, "seconds": 1201.96, "parsed": null, "error": "request failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)", "raw_response": null}
