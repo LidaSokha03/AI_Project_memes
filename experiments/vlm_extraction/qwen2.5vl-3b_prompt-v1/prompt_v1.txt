@@ -1,0 +1,8 @@
+D=experiments/semantic_pilot/qwen2.5vl-3b_prompt-v1
+mkdir -p $D
+
+mv outputs/semantic_pilot/qwen2.5vl_3b.jsonl       $D/results.jsonl
+mv outputs/semantic_pilot/qwen2.5vl_3b_review.csv  $D/review.csv
+mv outputs/semantic_pilot/qwen2.5vl_3b_review.html $D/review.html
+
+python3 -c "import sys; sys.path.insert(0,'src'); import semantic_pilot as sp; open('$D/prompt_v1.txt','w',encoding='utf-8').write(sp.PROMPT_TEMPLATE)"

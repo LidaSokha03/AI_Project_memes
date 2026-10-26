@@ -1,0 +1,38 @@
+Model / prompt: qwen2.5vl:7b / v2
+Memes: 2492, valid: 2492 (100.0%), failed: 0
+Time per meme: median 9.0 s, mean 9.5 s (the first meme of each session includes model loading)
+Viewpoints per meme: mean 1.25; 1: 1971, 2: 427, 3: 86, 4: 7, 5: 1
+Memes with no viewpoints: 0
+Sentiment (share of viewpoints): negative 50%, neutral 30%, positive 20%
+Viewpoints: 3116, unique targets: 2123 (68% of viewpoints), top-10 targets cover 13%
+Top 30 targets:
+    82  путін
+    55  кіт
+    42  чоловік
+    41  росія
+    40  україна
+    34  українці
+    33  чоловік в костюмі
+    31  жінка
+    28  люди
+    27  собака
+    25  трамп
+    16  сша
+    16  володимир путін
+    15  дитина
+    13  нато
+    13  військові
+    13  діти
+    12  російська влада
+    12  лукашенко
+    11  лікар
+    10  батько
+    10  українські військові
+    10  чоловік на фото
+     9  жінки
+     9  росіяни
+     9  зеленський
+     8  українська армія
+     8  старший чоловік
+     8  людина
+     8  дональд трамп
